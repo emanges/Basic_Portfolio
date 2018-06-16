@@ -32,6 +32,7 @@ h1 {
     margin-bottom: 20px;
 }
 
+
 .Contact {
     float: right;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -40,59 +41,73 @@ h1 {
     margin-bottom: 20px;
 }
 
-
-
 .container {
     position: absolute;
     width: 700px;
     left: 150px;
     top: 300px;
     padding: 130px;
-    background-color: #ffffff;
-    border-color: lightgrey;
-    
+    background-color: #ffffff;  
+    border-color: lightgrey; 
 }
 
 #h2 {
     text-align: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     top: 10px;
-    left: 110px;
+    left: 130px;
     float: left;
 }
 
 #line {
-    width: 800px;
+    width: 700px;
     height: 3px;
     background-color: lightgrey;
     position: absolute;
-    top: 115px;
-    left: 100px;
+    top: 110px;
+    left: 130px;
 }
 
-#picturetwo {
-    clear: both;
+.banner {
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 40px;
+    color: white;
     position: relative;
-    left: -20px;
-    top:25px;
-    border-top: 5px;
-    border-top-color:#dddddd;
+    top: -40px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.chess {
+    padding: 15px;
+}
+
+.monopoly {
+    padding: 15px;
+}
+
+.cards {
+    padding: 15px;
+}
+
+.catan {
+   float: right;
+   position: absolute; 
+   right: 150px;
+   top: 420px;
 
 }
 
-
-#paragraph {
-    text-align: left;
-    font-size: 18px;
-    line-height: 20px;
-    float: left;
+.go {
     position: absolute;
-    top: 130px;
-    left: 350px;
-
+    top: 142px;
+    right: 150px;
+    float: right;
 }
 
 .footer {
